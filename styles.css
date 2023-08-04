@@ -16,9 +16,15 @@
 
 .small-header {
     background-color: rgb(255, 183, 183);
-    font-size: 35px;
+    font-size: 40px;
 }
 
-.recipe-links {
-    font-size: 30px;
+.info-text {
+    font-size: 27px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+}
+
+#galbi {
+    height: auto;
+    width: 400px;
 }
