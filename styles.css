@@ -1,7 +1,24 @@
-.big-header {
+.big-header,
+.small-header,
+.recipe-links {
     color: rgba(112, 0, 0, 0.836);
+    font-family: "Comic Sans MS", Arial, sans-serif;
+}
+.big-header {
     background-color: rgb(253, 192, 117);
     font-size: 70px;
-    font-family: "Comic Sans MS", Arial, sans-serif;
-    text-align: center;
+}
+
+#hamster-gif {
+    height: auto;
+    width: 500px;
+}
+
+.small-header {
+    background-color: rgb(255, 183, 183);
+    font-size: 35px;
+}
+
+.recipe-links {
+    font-size: 30px;
 }
