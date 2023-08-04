@@ -24,12 +24,9 @@
     font-family: "Comic Sans MS", Arial, sans-serif;
 }
 
-#galbi {
-    height: auto;
-    width: 500px;
-}
-
-#katsu {
+#galbi, 
+#katsu,
+#pho {
     height: auto;
     width: 550px;
 }
