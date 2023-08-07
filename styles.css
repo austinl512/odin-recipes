@@ -1,24 +1,31 @@
 /* The following grouped classes will display the heading text color and font consistently across the pages. */
-.big-header,
-.small-header {
+.big-header {
     color: rgba(112, 0, 0, 0.836);
     font-family: "Comic Sans MS", Arial, sans-serif;
+    height: auto;
+    width: fit-content;
+    margin:25px auto;
+    padding: 10px;
 }
 
 /* The following class selector will set the background color and size of the of the main heading for each page. */
 .big-header {
     background-color: rgb(253, 192, 117);
     font-size: 70px;
+    border: 10px solid rgba(112, 0, 0, 0.836);
 }
 
 /* The following ID selector will resize the hamster.gif image for the index page. */
 #hamster-gif {
     height: auto;
     width: 500px;
+    margin-left: 800px;
 }
 
 /* The following class selector will set the background color and the size of the subheading for each page. */
 .small-header {
+    color: rgba(112, 0, 0, 0.836);
+    font-family: "Comic Sans MS", Arial, sans-serif;
     background-color: rgb(255, 183, 183);
     font-size: 40px;
 }
