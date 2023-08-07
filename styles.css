@@ -48,16 +48,22 @@
 #galbi {
     height: auto;
     width: 550px;
+    margin-left: 840px;
+    border: 5px ridge;
 } 
 
 /* The following ID selector will resize the katsu.png image for the katsu recipe page.*/
 #katsu {
     height: auto;
     width: 545px;
+    margin-left: 840px;
+    border: 5px ridge;
 }
 
 /* The following ID selector will resize the pho.png image for the pho recipe page.*/
 #pho {
     height: auto;
     width: 540px;
+    margin-left: 838px;
+    border: 5px ridge;
 }
