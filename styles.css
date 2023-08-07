@@ -12,7 +12,7 @@
 .big-header {
     background-color: rgb(253, 192, 117);
     font-size: 70px;
-    border: 10px solid rgba(112, 0, 0, 0.836);
+    border: 8px solid rgba(112, 0, 0, 0.836);
 }
 
 /* The following ID selector will resize the hamster.gif image for the index page. */
@@ -28,12 +28,20 @@
     font-family: "Comic Sans MS", Arial, sans-serif;
     background-color: rgb(255, 183, 183);
     font-size: 40px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 5px dashed rgba(112, 0, 0, 0.836);
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 /* The following class selector will set the font size and font type for the informational text for each page. */
 .info-text {
     font-size: 27px;
     font-family: "Comic Sans MS", Arial, sans-serif;
+    margin-left: 20px;
 }
 
 /* The following ID selector will resize the galbi.png image for the galbi recipe page.*/
