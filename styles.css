@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(255, 250, 240);
+}
 /* The following grouped classes will display the heading text color and font consistently across the pages. */
 .big-header {
     color: rgba(112, 0, 0, 0.836);
@@ -66,4 +69,19 @@
     width: 540px;
     margin-left: 838px;
     border: 5px ridge;
+}
+
+.recipe-links {
+    height: 200px;
+    width: 700px;
+    border: 8px ridge;
+    display: flex;
+    margin-left: 700px;
+    padding: 50px;
+    list-style: none;
+    justify-content: center;
+}
+
+.recipe-links li {
+    flex-grow: 1;
 }
