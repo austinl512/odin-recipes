@@ -72,6 +72,7 @@ body {
 }
 
 .recipe-links {
+    background-color: white;
     height: 200px;
     width: 700px;
     border: 8px ridge;
@@ -79,9 +80,7 @@ body {
     margin-left: 700px;
     padding: 50px;
     list-style: none;
-    justify-content: center;
-}
-
-.recipe-links li {
-    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
 }
