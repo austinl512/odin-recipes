@@ -1,7 +1,10 @@
+
+/* The following selector will add a background color to all of the recipe web pages. */
 body {
     background-color: rgb(255, 250, 240);
 }
-/* The following grouped classes will display the heading text color and font consistently across the pages. */
+
+/* The following grouped classes will display the heading text color and font consistently across the pages. This will also set the background color and size of the of the main heading for each page. */
 .big-header {
     color: rgba(112, 0, 0, 0.836);
     font-family: "Comic Sans MS", Arial, sans-serif;
@@ -9,10 +12,6 @@ body {
     width: fit-content;
     margin:25px auto;
     padding: 10px;
-}
-
-/* The following class selector will set the background color and size of the of the main heading for each page. */
-.big-header {
     background-color: rgb(253, 192, 117);
     font-size: 70px;
     border: 8px solid rgba(112, 0, 0, 0.836);
@@ -41,6 +40,22 @@ body {
     margin-left: 590px;
 }
 
+/* The following class selector will display the recipe links as flex items. This allows me to display the links horizontally and align them in the center of its borders. 
+Also, I centered the recipe links in the middle of the page (horizontally). This class selector also edits the padding, list-style, and font size to add visual appeal to the recipe links. */
+.recipe-links {
+    background-color: white;
+    height: 200px;
+    width: 700px;
+    border: 8px ridge;
+    display: flex;
+    margin-left: 700px;
+    padding: 50px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+}
+
 /* The following class selector will set the font size and font type for the informational text for each page. */
 .info-text {
     font-size: 27px;
@@ -52,6 +67,7 @@ body {
     background-color: white;
 }
 
+/* The following class selector will edit the listed content on each recipe page to fit within their respective borders. The margins and padding are also edited to add more visual appeal when displayed. */
 .list-text {
     font-size: 27px;
     font-family: "Comic Sans MS", Arial, sans-serif;
@@ -86,18 +102,4 @@ body {
     width: 540px;
     margin-left: 838px;
     border: 5px ridge;
-}
-
-.recipe-links {
-    background-color: white;
-    height: 200px;
-    width: 700px;
-    border: 8px ridge;
-    display: flex;
-    margin-left: 700px;
-    padding: 50px;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 35px;
 }
