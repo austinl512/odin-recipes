@@ -57,6 +57,13 @@ Also, I centered the recipe links in the middle of the page (horizontally). This
     font-size: 35px;
 }
 
+/* The following type selector removes the underline from the links and sets the font type/color to match the other web page text. */
+a {
+    text-decoration: none;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    color: rgba(112, 0, 0, 0.836);
+}
+
 /* The following class selector will set the font size and font type for the informational text for each page. */
 .info-text {
     font-size: 27px;
