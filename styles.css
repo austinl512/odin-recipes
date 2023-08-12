@@ -2,13 +2,16 @@
 /* The following selector will add a background color to all of the recipe web pages. */
 body {
     background-color: rgb(255, 250, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* The following grouped classes will display the heading text color and font consistently across the pages. This will also set the background color and size of the of the main heading for each page. */
 .big-header {
     color: rgba(112, 0, 0, 0.836);
     font-family: "Comic Sans MS", Arial, sans-serif;
-    height: auto;
+    height: fit-content;
     width: fit-content;
     padding: 10px;
     background-color: rgb(253, 192, 117);
@@ -20,7 +23,7 @@ body {
 #hamster-gif {
     height: auto;
     width: 500px;
-    margin-left: 800px;
+    border: 5px solid red;
 }
 
 /* The following class selector will set the background color and the size of the subheading for each page. */
@@ -36,8 +39,6 @@ body {
     padding-bottom: 7px;
     border: 5px dashed rgba(112, 0, 0, 0.836);
     text-align: center;
-    margin-left: 695px;
-    margin-top: 100px;
 }
 
 /* The following class selector will display the recipe links as flex items. This allows me to display the links horizontally and align them in the center of its borders. 
@@ -48,7 +49,6 @@ Also, I centered the recipe links in the middle of the page (horizontally). This
     width: 700px;
     border: 8px ridge;
     display: flex;
-    margin-left: 700px;
     padding: 50px;
     list-style: none;
     justify-content: space-around;
@@ -111,14 +111,17 @@ a {
     border: 5px ridge;
 }
 
-.container {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .header-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    border: 5px solid red;
 }
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid red;
+}
+
